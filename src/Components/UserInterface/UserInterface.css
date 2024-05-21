@@ -1,0 +1,43 @@
+.user-main-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 380px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.temp-and-image {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.temp {
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 14px;
+}
+
+.weather-description {
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.for-padding{
+    padding-top: 3px;
+}
+
+.image img{
+    width:80px
+}
+
+@media (max-width: 222px) {
+  .container{
+    height:52vh;
+  }
+} 
